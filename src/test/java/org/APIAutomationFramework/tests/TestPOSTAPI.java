@@ -79,7 +79,7 @@ public class TestPOSTAPI extends BaseClass {
         response = RestAssured.given(requestSpecification)
                 .when().body(CreatebookingPayload.getCreateBookingPayload()).post();
 
-//        response.then().log().all();
+        response.then().log().all();
 
         assertThat(response.statusCode()).isEqualTo(404);
 
