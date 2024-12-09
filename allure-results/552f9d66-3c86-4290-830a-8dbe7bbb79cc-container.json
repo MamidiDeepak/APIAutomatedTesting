@@ -1,0 +1,1 @@
+{"uuid":"552f9d66-3c86-4290-830a-8dbe7bbb79cc","name":"APIAutomatedTesting","children":["ebfdd587-d960-45d5-afb5-b95002919be2"],"befores":[{"name":"initialClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1733656588706,"stop":1733656589157}],"afters":[],"start":1733656588691,"stop":1733656591703}
