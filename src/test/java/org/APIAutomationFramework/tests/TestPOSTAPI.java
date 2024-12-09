@@ -40,7 +40,7 @@ public class TestPOSTAPI extends BaseClass {
         BookingResponsePojo brp = CreatebookingPayload.getDeSerializedResponse(response.asString());
         String createdBookingId = brp.getBookingid();
 
-        System.out.println("Created Id : "+createdBookingId);
+        System.out.println("Created Id: "+createdBookingId);
 
         AssertActions.validateTheBodyData(brp.getBooking().getFirstname(),CreatebookingPayload.fName);
 //        AssertActions.validateTheBodyData(brp.getBooking().getFirstname(), ReadKey.readkeyData("booking.post.firstName"));
